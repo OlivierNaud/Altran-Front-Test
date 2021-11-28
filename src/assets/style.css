@@ -1,0 +1,126 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #c3c3c39e;
+}
+
+#screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#allContainer {
+    background-color: white;
+    width: 60%;
+    margin: 5% 0 5% 0;
+    border-radius: 10px;
+    box-shadow: -15px 15px 1px #00849d;
+}
+
+
+/** TITRE **/
+
+.title {
+    width: 100%;
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: #00849d;
+
+}
+
+
+/** UPDATE TODO **/
+
+.UpdateTodo {
+    margin: 5%;
+}
+
+.containerChamp {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #D2D4D4;
+    border-radius: 3px;
+}
+
+.displayButtonAdd {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.buttonAdd, .buttonFinish {
+    color: white;
+    background-color: #00849d;
+    border-radius: 5px;
+    border: none;
+    transition: 0.4s;
+}
+
+.buttonAdd:hover, .buttonFinish:hover {
+    background-color: black;
+    color: #00849d;
+}
+
+.buttonAdd {
+    padding: 10px 20px;
+}
+
+.buttonFinish {
+    padding: 5px 10px;
+}
+
+/** TASK TODO **/ 
+
+
+.titleTodo, .titleDone {
+    text-align: center;
+    width: 25%;
+    margin: 0 auto 5% auto;
+    border-bottom: 1px solid black;
+    padding: 0.8%;
+}
+
+.todoItem, .doneItem {
+    width: 90%;
+    display: flex;
+    margin: 2% auto;
+
+
+}
+
+.titleItemTodo, .titleItemDone {
+    margin-left: 5%;
+    width: 20%;
+}
+
+.descriptionItemTodo, .descriptionItemDone {
+    width: 60%;
+}
+
+.divButtonFinish {
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+
+/** TASK DONE **/
+
+.titleDone {
+    margin-top: 5%;
+}
+
+.titleItemDone, .descriptionItemDone {
+    text-decoration: line-through;
+}
